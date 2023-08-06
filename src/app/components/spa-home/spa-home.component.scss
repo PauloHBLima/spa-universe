@@ -1,0 +1,55 @@
+@font-face {
+  font-family: 'Roboto', sans-serif;
+  src: url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,700;1,100&display=swap');
+}
+
+.header-list {
+  display: flex;
+}
+nav {
+  margin-top: 20px;
+}
+
+li {
+  display: inline-block;
+  margin: 0 0 0 65px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  color: #C4C4CC;
+  font-size: 20px;
+  line-height: 21px;
+}
+
+h1 {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 700;
+  font-size: 24px;
+  color: white;
+}
+
+.explore {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  width: 600px;
+  height: 600px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 700;
+  font-size: 48px;
+  color: #E1E1E6;
+}
+
+.explore button {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 700;
+  line-height: 24px;
+  font-size: 14px;
+  background-color: Transparent;
+  border: 2px white solid;
+  border-radius: 5px;
+  color: white;
+  width: 195px;
+  height: 48px;
+}

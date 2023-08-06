@@ -1,0 +1,24 @@
+.bg-image {
+  background-image: url('/assets/mountain2.png');
+  background-size: cover;
+  width: 100vw;
+  height: 100vh;
+}
+
+.oUniverso {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  width: 600px;
+  height: 600px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 700;
+  font-size: 48px;
+  color: #E1E1E6;
+}
+
+p {
+  font-size: 14px;
+}

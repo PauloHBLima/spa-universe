@@ -3,46 +3,11 @@
   src: url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,700;1,100&display=swap');
 }
 
-.header-list {
-  display: flex;
-}
-
-.bg-image {
-  background-image: url('/assets/mountain.png');
+ .bg-image {
+ background-image: url('/src/assets/mountain.png');
   background-size: cover;
-  width: 100vw;
-  height: 100vh;
-}
-
-nav {
-  margin-top: 20px;
-}
-
-a {
-  text-decoration: none;
-}
-
-li {
-  display: inline-block;
-  margin: 0 0 0 65px;
-  font-family: 'Roboto', sans-serif;
-  font-weight: 400;
-  color: #C4C4CC;
-  font-size: 20px;
-  line-height: 21px;
-}
-
-h1 {
-  font-family: 'Roboto', sans-serif;
-  font-weight: 700;
-  font-size: 24px;
-  color: white;
-}
-
-ul {
-  margin: 0;
-  color: white;
-  list-style: none;
+/*   width: 100vw;
+  height: 100vh; */
 }
 
 .explore {

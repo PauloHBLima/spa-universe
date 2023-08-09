@@ -5,7 +5,7 @@ import { OUniversoComponent } from './components/o-universo/o-universo.component
 import { ExploracaoComponent } from './components/exploracao/exploracao.component';
 
 const routes: Routes = [
-  {path: 'home', component: SpaHomeComponent},
+  {path: '', component: SpaHomeComponent},
   {path: 'oUniverso', component: OUniversoComponent},
   {path: 'exploração', component: ExploracaoComponent},
 

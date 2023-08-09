@@ -5,13 +5,15 @@ import { AppComponent } from './app.component';
 import { SpaHomeComponent } from './components/spa-home/spa-home.component';
 import { OUniversoComponent } from './components/o-universo/o-universo.component';
 import { ExploracaoComponent } from './components/exploracao/exploracao.component';
+import { HeaderComponent } from './components/header/header.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     SpaHomeComponent,
     OUniversoComponent,
-    ExploracaoComponent
+    ExploracaoComponent,
+    HeaderComponent
   ],
   imports: [
     BrowserModule,
